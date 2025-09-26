@@ -1,37 +1,51 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Best-Inn Hotels</title>
-<link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best-Inn Hotels</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
 <header>
-<h1>Best-Inn Hotels</h1>
-<p>Hotels in natuurgebieden en historische steden</p>
+    <h1>Best-Inn Hotels</h1>
+    <p>Hotels in natuurgebieden en historische steden</p>
+
+    <!-- Taalkeuze knoppen -->
+    <button id="nl-button">NL</button>
+    <button id="en-button">EN</button>
 </header>
+
 <main>
-<section>
-<h2>Welkom bij Best-Inn Hotels</h2>
-<p>
-       Best-Inn Hotels heeft een aantal hotels overgenomen van Fletcher en Leonardo.  
-       Je vindt ons nu in prachtige natuurgebieden zoals de Veluwe en de bossen bij Oisterwijk,  
-       maar ook in historische steden zoals Amsterdam en Breda.
-</p>
-</section>
-<section>
-<h2>Waarom kiezen voor ons?</h2>
-<ul>
-<li>Kamerprijzen vanaf <span class="price">€120</span> per nacht.</li>
-<li>Perfect voor zakelijke klanten en weekendjes weg.</li>
-<li>Late checkout tot 13:00 uur.</li>
-</ul>
-<a href="aanbieding.html" class="cta">Bekijk onze aanbieding</a>
-</section>
+    <!-- Hero sectie: foto bovenaan de pagina -->
+    <section id="hero">
+        <img src="img/hotel.jpg" alt="Best-Inn Hotels" class="img/hotel.jpg">
+    </section>
+
+    <section>
+        <h2>Welkom bij Best-Inn Hotels</h2>
+        <p id="welcome-text">Best-Inn Hotels heeft een aantal hotels overgenomen van Fletcher en Leonardo. Je vindt ons nu in prachtige natuurgebieden zoals de Veluwe en de bossen bij Oisterwijk, maar ook in historische steden zoals Amsterdam en Breda.</p>
+    </section>
+
+    <section>
+        <h2>Waarom kiezen voor ons?</h2>
+        <ul>
+            <li id="price-title">Kamerprijzen vanaf €120 per nacht.</li>
+            <li id="business-title">Perfect voor zakelijke klanten en weekendjes weg.</li>
+            <li id="checkout-title">Late checkout tot 13:00 uur.</li>
+        </ul>
+        <a href="aanbieding.html" class="cta" id="cta-title">Bekijk onze aanbieding</a>
+    </section>
 </main>
+
 <footer>
-<p>&copy; 2025 Best-Inn Hotels</p>
+    <p id="footer-text">&copy; 2025 Best-Inn Hotels</p>
 </footer>
+
+<script src="scripts/script.js"></script>
 </body>
 </html>
+
+
+
